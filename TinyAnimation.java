@@ -11,8 +11,8 @@ public class TinyAnimation extends Application {
         Circle circle = new Circle(50, 0, 20); // x=50, y=100, radius=20
 
         // Move right by 150px in 1 second
-        TranslateTransition move = new TranslateTransition(Duration.seconds(2), circle);
-        move.setByX(100);
+        TranslateTransition move = new TranslateTransition(Duration.seconds(10), circle);
+        move.setByX(300);
         move.play(); // start animation
 
         Pane root = new Pane(circle);
